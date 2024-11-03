@@ -2,7 +2,7 @@ from models import Task, UpdateTask
 from bson import ObjectId
 import motor.motor_asyncio
 
-uri = "mongodb+srv://osegutierrez1607:Fr38850172@franklin.ic65u.mongodb.net/?retryWrites=true&w=majority&appName=Franklin"
+uri = "mongodb+srv://osegutierrez1607:<password>@franklin.ic65u.mongodb.net/?retryWrites=true&w=majority&appName=Franklin"
 
 # Create a new client and connect to the server
 client = motor.motor_asyncio.AsyncIOMotorClient(uri)
